@@ -1,0 +1,170 @@
+/* *{
+border: 1px solid #333;
+} */
+html,body{
+    margin: 0;
+    padding: 0;
+
+}
+
+html{
+    background-color: white;
+    /* border: 1px solid #333; */
+}
+
+*,*::before,*:after{
+    box-sizing: inherit;
+}
+
+
+h1{
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* font-family: Arial Black; */
+    background-color: #172c31 ; 
+    
+    
+    color: white;
+}
+
+.link{
+    text-decoration: none;
+    color:white;
+    margin-right: 10px;
+    font-style: arial;  
+}
+
+.link:hover{
+   color:green;
+
+}
+
+nav{
+    display: flex;
+    font-family: Arial Black;
+    color:white;
+    font-size:16px ;
+    margin-right: 10px;
+    text-decoration: none;
+   
+
+}
+
+
+
+.Topic{
+    color:#345961;
+    font-weight: 700;
+    text-align: justify;    
+}
+
+.feature{
+    display:flex;    
+    /* font-display: center; */
+    font-family: Arial Black;
+ 
+    /* margin-left: 50px; */
+    padding-left: 45%;
+    /* text-align:  center;  */
+
+}
+
+.feature_text{
+    border:2px solid;
+    padding: 10px 10px 10px 10px;
+}
+
+.contact{
+    margin-top: 60px;
+    margin-bottom: 200px;
+    text-align:  center; 
+}
+
+
+.picture{
+    /* width: 100%;  */
+    position:relative;
+    margin-left: 30px; 
+    /* z-index: -1; */
+    opacity: 0.3;   
+
+}
+
+.picture img{
+
+    position:absolute;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+
+}
+
+.picture img:last-child:hover{
+    opacity: 0;
+}
+
+.test{
+    width: 1600x;
+    height: 900px;
+}
+
+.dog-box{
+    
+    position:absolute;
+    background-color: white;
+    color: #345961;
+    margin-left: 30px;  
+    margin-top: 50px;
+    z-index:2;
+   
+}
+
+h3{
+
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+    /* text-align: center; */
+    padding-left: 30%;
+    
+    
+
+}
+
+.Box1,.Box2{
+    display: flex;
+    justify-content: space-between;
+    width: calc(100%/4);
+    display: flex;
+    align-items: center;
+    
+
+
+}
+.text1, .text2,  .text3, .text4 {
+height: 270px;
+width: 270px;
+color: #345961;
+margin-left: 5px;
+padding-left: 10px;
+}
+
+.picture1,.picture2,.picture3,.picture4{
+    
+height: 270px;
+width: 270px;
+
+}
+
+
+
+
